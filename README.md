@@ -2,51 +2,33 @@ Project 618
 
 # News Service Platform
 
-A modern, news service that allows users to **browse, post, upload, and share content** in real time.  
-This platform enables open discussion, content discovery, and social interaction around the latest news stories.
+A modern, news service that allows users to **browse** news stories.  
 
 ---
 
 ![alt text](franklin_printing_press.webp)
 
 ## Table of Contents
-- [Acknowledgements](#acknowledgements)
-- [Value Proposition](#value-proposition)
-- [Overview](#overview)  
+- [Value Proposition](#value-proposition) 
 - [Features](#features) 
 - [How to Use](#how-to-use)  
 - [Tech Stack](#tech-stack)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
-
----
-
-## Acknowledgements 
+- [Acknowledgements](#acknowledgements)
 
 ---
 
 ## Value Proposition 
-- The purpose of the project is to provide access to quality information. The software service accomplishes this goal through a variety of the highest quality, lowest cost information sources, products and services in an aesthetic digital environment. Our goal is to inform citizens and improve holistic health & well being so that people can live a more fulfilled and enriched life. 
-
----
-
-## Overview
-The News Service Platform is designed to foster open journalism and community discussion.  
-It empowers users to:
-- **Discover** trending articles and posts.  
-- **Contribute** by posting original news or uploading multimedia.  
-- **Engage** by sharing, commenting, and reacting to content.  
+- The purpose of the project is to provide access to quality information. The software service accomplishes this through a variety of the highest quality, lowest cost information sources in an aesthetic digital environment. Our goal is to inform citizens so that people can live a more fulfilled and enriched life. 
 
 ---
 
 ## Features
 - 🔎 **Browse Content**: Explore curated news feeds.  
-- ✍️ **Post Articles**: Create and publish your own news updates.  
-- 📤 **Upload Media**: Share images, documents, or videos alongside your posts.  
-- 🔗 **Social Sharing**: Distribute content across social media or within the platform.  
 - 💬 **Community Interaction**: Comment, like, and engage in discussions.  
-- 📱 **Responsive Design**: Optimized for desktop and mobile.  
+- 🔗 **Social Sharing**: Distribute content across social media or within the platform.  
+- 📱 **Responsive Design**: Optimized for mobile.  
 
 ---
 
@@ -57,18 +39,30 @@ It empowers users to:
 ---
 
 ## Tech Stack 
-- Frontend: SwiftUI (for iOS app)
-- Backend: Python, Flask
-- AI/ML: Scikit-learn, TensorFlow
+- Frontend: SwiftUI 
+- Backend: Firebase
 
 ---
 
-## License 
-- Apache
+## License ⚖️ 
+This project is licensed under a dual license. 
+You are free to use, modify, and distribute this software with attribution, but must open source modifications to the community. Integration into closed source, proprietary systems requires annual subscription and license fees.  
+See license.txt for details. 
 
 ---
 
-## Contact 
-📧 Email: adoe@gse.upenn.edu
+## Contact 📬
+For questions, collaborations, or contributions:
+- Name: Abraham Doe
+- Email: adoe@gse.upenn.edu 📧 
+- GitHub: http://github.com/BlackArsenic88  
+   
+---
+
+## Acknowledgements 
+- Educators, professors, jorunalists, contributors and the University community
+- Inspiration from industry leaders in software driven models
+- Built in collaboration with OpenAI/Chat GPT 5
+- I am grateful. Thank you! 
 
 ---
