@@ -11,7 +11,10 @@ import SwiftUI
 struct NewsApp: App {
     var body: some Scene {
         WindowGroup {
-            MainTabView()
+            NavigationStack{
+                MainTabView()
+                    .navigationBarTitleDisplayMode(.inline)
+            }
         }
     }
 }

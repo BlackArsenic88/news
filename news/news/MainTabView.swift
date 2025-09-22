@@ -11,7 +11,7 @@ struct MainTabView: View {
     var body: some View {
         TabView {
             NewsView()
-                   .tabItem { Label("Home", systemImage: "house") }
+                .tabItem { Label("Home", systemImage: "house") }
         }
         .toolbar {
             ToolbarItem(placement: .principal) {

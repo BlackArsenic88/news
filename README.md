@@ -26,19 +26,19 @@ A modern, news service that allows users to **browse** news stories.
 
 ## Features
 - 🔎 **Browse Content**: Explore curated news feeds.  
-- 💬 **Community Interaction**: Comment, like, and engage in discussions.  
-- 🔗 **Social Sharing**: Distribute content across social media or within the platform.  
+<!-- Under development: 💬 **Community Interaction**: Comment, like, and engage in discussions. -->
+<!-- 🔗 **Social Sharing**: Distribute content across social media or within the platform. -->
 - 📱 **Responsive Design**: Optimized for mobile.  
 
 ---
 
 ## How to Use 
-- Apple App Store 
-- Google Play Store 
+- Download and install via Xcode
 
 ---
 
 ## Tech Stack 
+- Xcode
 - Frontend: SwiftUI 
 - Backend: Firebase
 
