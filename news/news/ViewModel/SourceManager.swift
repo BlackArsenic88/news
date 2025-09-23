@@ -14,43 +14,46 @@ class SourceManager: ObservableObject {
     @Published var selectedSources: Set<String> = []
 
     let feeds: [(String, String)] = [
-        ("Cornell Business", "https://business.cornell.edu/feed/"),
-        ("Harvard Business Review", "hbr://feed"),
-        ("MIT Sloan", "https://sloanreview.mit.edu/feed/"),
-        ("Wharton", "https://knowledge.wharton.upenn.edu/feed/"),
+        ("BBC", "https://feeds.bbci.co.uk/news/rss.xml"),
         ("CNBC Business", "https://www.cnbc.com/id/10001147/device/rss/rss.html"),
         ("CNBC Economy", "https://www.cnbc.com/id/20910258/device/rss/rss.html"),
         ("CNBC Finance", "https://www.cnbc.com/id/10000664/device/rss/rss.html"),
         ("CNBC Investing", "https://www.cnbc.com/id/15839069/device/rss/rss.html"),
-        ("CNBC Market Insider", "https://www.cnbc.com/id/20409666/device/rss/rss.html"),
         ("CNBC Personal Finance", "https://www.cnbc.com/id/21324812/device/rss/rss.html"),
         ("CNBC Technology", "https://www.cnbc.com/id/19854910/device/rss/rss.html"),
         ("CNBC U.S. News", "https://www.cnbc.com/id/15837362/device/rss/rss.html"),
-        ("CNBC World News", "https://www.cnbc.com/id/100727362/device/rss/rss.html")
+        ("CNBC World News", "https://www.cnbc.com/id/100727362/device/rss/rss.html"),
+        ("Cornell Business", "https://business.cornell.edu/feed/"),
+        ("Entrepreneur", "https://www.entrepreneur.com/latest.rss"),
+        ("ESPN", "https://espn.com/espn/rss/news"),
+        ("Hacker News", "https://news.ycombinator.com/rss"),
+        ("Harvard Business Review", "hbr://feed"),
+        ("Harvard Gazette", "https://news.harvard.edu/gazette/feed"),
+        ("MIT Sloan", "https://sloanreview.mit.edu/feed/"),
+        ("New Yorker", "https://newyorker.com/feed/everything"),
+        ("NPR", "https://feeds.npr.org/1002/rss.xml"),
+        ("NPR Art & Design", "https://feeds.npr.org/1047/rss.xml"),
+        ("NPR Space", "https://feeds.npr.org/1026/rss.xml"),
+        ("TechCrunch", "https://www.techcrunch.com/feed/"),
+        ("US News & World Report Travel Editorial", "https://www.usnews.com/rss/travel-editorial"),
+        ("Wired", "https://www.wired.com/feed/rss"),
+        ("Wharton", "https://knowledge.wharton.upenn.edu/feed/"),
     ]
     
     /*
      Additional Informaton Sources
          // Business Administration
-         ("BBC News", "https://www.bbc.com/news"),
          ("Columbia Business", "https://www8.gsb.columbia.edu/ideas-at-work/rss"),
          ("Cornell Business", "https://business.cornell.edu/feed/"),
          ("Dartmouth Knowledge in Practice", "https://tuck.dartmouth.edu/news/category/faculty-insights"),
          ("Dartmouth Media", "https://tuck.dartmouth.edu/news/category/in-the-media"),
-         ("Hacker News", "https://news.ycombinator.com/"),
          ("Harvard Business Review", "https://hbr.org"),
-         ("Knowledge @ Wharton", "https://knowledge.wharton.upenn.edu/feed/"),
-         ("MIT Sloan", "https://sloanreview.mit.edu/feed/"),
          ("Morningstar", "https://www.morningstar.com/videos"),
-         ("The New Yorker", " https://www.newyorker.com"),
          ("Yale", "https://insights.som.yale.edu"),
          
          // Finance & Investing
          ("CFA Institute: Research & Policy Center", "https://rpc.cfainstitute.org/research/browse#sortCriteria=%40officialz32xdate%20descending"),
          ("CFA Institute: Enterprising Investor", "https://blogs.cfainstitute.org/investor/" ),
-         ("CNBC Economy", "https://www.cnbc.com/id/20910258/device/rss/rss.html"),
-         ("CNBC Finance", "https://www.cnbc.com/id/10000664/device/rss/rss.html"),
-         ("US News & World", "https://www.usnews.com/topics/business-and-finance/rss"),
          
          // Human Resources
          // ("American Medical Association", "https://www.ama-assn.org"),
@@ -58,7 +61,6 @@ class SourceManager: ObservableObject {
          // ("American Heart Association https", "https://www.heart.org/en/news"),
          // ("Harvard Medical Publishing", "https://www.health.harvard.edu"),
          // ("Mayo Clinic", "https://newsnetwork.mayoclinic.org"),
-         // ("US News & World Report", "https://www.usnews.com"),
          
          // Law
          // ("Legal Intelligencer", "https://www.law.com/thelegalintelligencer/" ),
@@ -79,14 +81,10 @@ class SourceManager: ObservableObject {
          // ("Nobel", "https://www.nobelprize.org/feed/"),
          
          // Technology
-         // ("CNBC Technology", "https://www.cnbc.com/id/19854910/device/rss/rss.html")
          // ("CIO Dive", "https://www.ciodive.com"),
          // ("CNET", "https://www.cnet.com"),
          // ("Dark Reading", "https://www.darkreading.com"),
-         // ("Hacker News", "https://thehackernews.com"),
-         // ("Tech Crunch", "https://techcrunch.com"),
          // ("TLDR", "https://tldr.tech"),
-         // ("Wired", "https://www.wired.com")
      */
 
     private init() {

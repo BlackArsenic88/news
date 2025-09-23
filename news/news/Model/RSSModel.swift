@@ -85,13 +85,16 @@ class RSSParser: NSObject, XMLParserDelegate {
                 title: currentTitle.decodedHTML,
                 link: currentLink.trimmingCharacters(in: .whitespacesAndNewlines),
                 pubDate: currentPubDate.trimmingCharacters(in: .whitespacesAndNewlines),
-                description: currentDescription.decodedHTML,
+                description: (currentSource == "Hacker News"
+                              ? ""
+                              : currentDescription.decodedHTML),
                 imageURL: currentImageURL,
                 source: currentSource
             )
             items.append(item)
         }
     }
+
 
     func parserDidEndDocument(_ parser: XMLParser) {
         completionHandler?(items)
