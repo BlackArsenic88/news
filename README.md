@@ -2,7 +2,7 @@ Project 618
 
 # News Service Platform
 
-A modern, news service that allows users to **browse** news stories.  
+A modern, news service that allows users to **browse** news stories published in real time.  
 
 ---
 
@@ -55,12 +55,12 @@ See license.txt for details.
 For questions, collaborations, or contributions:
 - Name: Abraham Doe
 - Email: adoe@gse.upenn.edu 📧 
-- GitHub: http://github.com/BlackArsenic88  
+- GitHub: [Portfolio](http://github.com/BlackArsenic88)
    
 ---
 
 ## Acknowledgements 
-- Educators, professors, jorunalists, contributors and the University community
+- Journalists, editors, contributors, educators, universities, and all information sources.
 - Inspiration from industry leaders in software driven models
 - Built in collaboration with OpenAI/Chat GPT 5
 - I am grateful. Thank you! 
