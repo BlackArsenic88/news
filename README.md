@@ -13,7 +13,7 @@ A modern, news service that allows users to **browse** news stories published in
 - [Features](#features) 
 - [How to Use](#how-to-use)  
 - [Tech Stack](#tech-stack)
-- [License](#license)
+- [License](license.txt)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
@@ -42,14 +42,14 @@ A modern, news service that allows users to **browse** news stories published in
 
 ---
 
-# License ⚖️ 
+# License⚖️ 
 This project is licensed under a dual license. 
 You are free to use, modify, and distribute this software with attribution, but must open source modifications to the community. Integration into closed source, commercial proprietary systems requires annual subscription and license fees.  
 See license.txt for details. 
 
 ---
 
-# Contact 📬
+# Contact📬
 For questions, collaborations, or contributions:
 - Name: Abraham Doe
 - Email: adoe@gse.upenn.edu 📧 
